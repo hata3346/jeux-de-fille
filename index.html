@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de fille</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Jeu de fille</h1>
+
+    <div id="personnage">
+        <img id="personnage-img" src="images/base.png" alt="Personnage">
+    </div>
+
+    <div id="menu">
+        <button onclick="changerVetements()">Changer vêtements</button>
+        <button onclick="ajouterAccessoire()">Ajouter accessoire</button>
+        <button onclick="maquiller()">Maquiller</button>
+        <button onclick="nettoyer()">Nettoyer</button>
+    </div>
+
+    <div id="etat">
+        <h3>État du personnage :</h3>
+        <p id="etat-personnage">Vêtements: Aucun | Accessoires: Aucun | Maquillage: Aucun | Propreté: Sale</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
